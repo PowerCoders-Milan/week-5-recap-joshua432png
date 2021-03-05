@@ -1,8 +1,6 @@
 array1 = ['marco', 'antonio', 'luca', 13, 18, 'leo', 'mary']
 array2 = [21, 19, 12, 'sebastian', 'will', 23, 20];
 
-var array1 = ['marco', 'antonio', 'luca', 13, 18, 'leo', 'mary']
-var array2 = [21, 19, 12, 'sebastian', 'will', 23, 20]
 
 var score = {};
 
