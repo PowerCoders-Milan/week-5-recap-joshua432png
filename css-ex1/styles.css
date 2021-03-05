@@ -1,0 +1,40 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 20vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.box1 {
+    background-color: blue;
+    width: 30%;
+    height: 30%;
+}
+
+.box2 {
+    background-color: chocolate;
+    width: 30%;
+    height: 30%;
+}
+
+.box3 {
+    background-color: crimson;
+    width: 30%;
+    height: 30%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgreen;
+    height: 20vh;
+}
