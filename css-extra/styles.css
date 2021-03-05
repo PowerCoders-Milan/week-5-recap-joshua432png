@@ -1,0 +1,113 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "main main sidemenu"
+    "footer footer footer";
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(91, 75, 102);
+    grid-area: header;
+}
+
+
+nav {
+    text-align: right;
+}
+
+a {
+    color: red;
+}
+
+.main{
+    background-color: maroon;
+    grid-area: main;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.box1 {
+    background-color: mediumpurple;
+    height: 15%;
+    width: 40%;
+    display: inline-grid;
+    margin:20px;
+}
+
+.box2 {
+    background-color: mediumvioletred;
+    height: 15%;
+    width: 40%;
+    display: inline-grid;
+    margin:20px;
+}
+
+.box3 {
+    background-color: olive;
+    height: 15%;
+    width: 40%;
+    display: inline-grid;
+    margin:20px;
+}
+
+.box4 {
+    background-color: palevioletred;
+    height: 15%;
+    width: 40%;
+    display: inline-grid;
+    margin:20px;
+}
+.box5 {
+    background-color: peru;
+    height: 15%;
+    width: 40%;
+    display: inline-grid;
+    margin:20px;
+}
+.box6 {
+    background-color: pink;
+    height: 15%;
+    width: 40%;
+    display: inline-grid;
+    margin:20px;
+}
+.box7 {
+    background-color: red;
+    height: 15%;
+    width: 40%;
+    display: inline-grid;
+    margin:20px;
+}
+.box8 {
+    background-color: saddlebrown;
+    height: 15%;
+    width: 40%;
+    display: inline-grid;
+    margin:20px;
+}
+
+.sidemenu {
+    background-color: mediumorchid;
+    grid-area: sidemenu;
+    
+    align-items: center;
+}
+
+
+
+img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    align-content: space-evenly;
+}
+
+
+footer {
+    background-color: lime;
+    grid-area: footer;
+}
