@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr 1fr;
+    min-height: 100vh
+}
+
+header {
+    background-color: darkviolet;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    text-align: center;
+}
+
+.box1 {
+    background-color: darkred;
+    text-align: center;
+}
+
+.box2 {
+    background-color: darksalmon;
+    text-align: center;
+}
+
+.box3 {
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+.box4 {
+    background-color: rgb(19, 212, 84);
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    text-align: center;
+}
+
+.box5 {
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+footer {
+    background-color: firebrick;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 4;
+    grid-row-end: span 4;
+    text-align: center;
+}
