@@ -6,17 +6,24 @@
     "header header header"
     "main main sidemenu"
     "footer footer footer";
-    min-height: 100vh;
+    
 }
 
 header {
     background-color: rgb(91, 75, 102);
     grid-area: header;
+    min-height:20vh;
+}
+
+/*icon pics*/
+.fas {
+    font-size: 80px;
+    justify-items: centers;
 }
 
 
 nav {
-    text-align: right;
+    float:right;
 }
 
 a {
@@ -28,11 +35,14 @@ a {
     grid-area: main;
     align-content: space-evenly;
     align-items: center;
+    padding-bottom: 250px;
+    min-height: 30vh;
+    
 }
 
 .box1 {
     background-color: mediumpurple;
-    height: 15%;
+    height: 30%;
     width: 40%;
     display: inline-grid;
     margin:20px;
@@ -40,15 +50,15 @@ a {
 
 .box2 {
     background-color: mediumvioletred;
-    height: 15%;
+    height: 30%;
     width: 40%;
     display: inline-grid;
-    margin:20px;
+    margin-left:40px;
 }
 
 .box3 {
     background-color: olive;
-    height: 15%;
+    height: 30%;
     width: 40%;
     display: inline-grid;
     margin:20px;
@@ -56,58 +66,90 @@ a {
 
 .box4 {
     background-color: palevioletred;
-    height: 15%;
+    height: 30%;
     width: 40%;
     display: inline-grid;
-    margin:20px;
+    margin-left:40px;
 }
 .box5 {
     background-color: peru;
-    height: 15%;
+    height: 30%;
     width: 40%;
     display: inline-grid;
     margin:20px;
 }
 .box6 {
     background-color: pink;
-    height: 15%;
+    height: 30%;
     width: 40%;
     display: inline-grid;
-    margin:20px;
+    margin-left:40px;
 }
 .box7 {
     background-color: red;
-    height: 15%;
+    height: 30%;
     width: 40%;
     display: inline-grid;
     margin:20px;
 }
 .box8 {
     background-color: saddlebrown;
-    height: 15%;
+    height: 30%;;
     width: 40%;
     display: inline-grid;
-    margin:20px;
+    margin-left:40px;
 }
 
 .sidemenu {
     background-color: mediumorchid;
     grid-area: sidemenu;
-    
-    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 30vh;
 }
 
 
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.side-box1 {
+    background-color: black;
+    text-align: center;
+    align-self: center;
     justify-self: center;
-    align-content: space-evenly;
+}
+
+.side-box2 {
+    background-color: black;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
 }
 
 
 footer {
     background-color: lime;
     grid-area: footer;
+    min-height:20vh;
+    
+}
+
+@media (max-width: 600opx) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header"
+        "main"
+        "sidemenu"
+        "footer";
+    }
 }
